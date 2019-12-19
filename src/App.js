@@ -1,26 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import apiData from '../api/data.json';
+import '../stylesheets/App.css';
+import ClubList from './ClubList';
+import Club from './Club';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// console.log(apiData)
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      clubs: apiData
+    };
+  }
+  render() {
+    return (
+      <div>
+        <ClubList>
+          {this.state.clubs.map((club, index) => {
+            return <Club
+              key={index}
+              club={club}
+            // club={
+            //   {
+            //     name: club.name,
+            //     icon: club.fa,
+            //     members: club.members
+            //   }
+            // }
+            />
+          })}
+        </ClubList>
+      </div>
+    );
+  }
 }
-
 export default App;
+
