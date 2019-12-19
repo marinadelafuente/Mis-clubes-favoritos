@@ -5,7 +5,7 @@ function ClubList(props) {
     console.log(props.clubs)
     return (
         <div>
-            <ul className='list'>
+            <ul className="list">
                 {props.clubs.map((club, i) => {
                     return <Club
                         key={i}
