@@ -1,6 +1,6 @@
 [{
         "name": "Book club",
-        "fa": "fas fa-glasses",
+        "fa": "fas fa-glasses icon",
         "members": [
             "Rosalie Bradley",
             "Lula Day",
@@ -11,7 +11,7 @@
     },
     {
         "name": "Chess club",
-        "fa": "fas fa-chess",
+        "fa": "fas fa-chess icon",
         "members": [
             "Francisco Alexander",
             "Alice Garner",
@@ -24,7 +24,7 @@
     },
     {
         "name": "Escape room club",
-        "fa": "fas fa-dungeon",
+        "fa": "fas fa-dungeon icon",
         "members": [
             "Della Frank",
             "Nathan Briggs",
@@ -35,7 +35,7 @@
     },
     {
         "name": "Thief club",
-        "fa": "fas fa-mask",
+        "fa": "fas fa-mask icon",
         "members": [
             "Ina Becker",
             "Jared Bryan",
@@ -49,7 +49,7 @@
     },
     {
         "name": "Fight club",
-        "fa": "fas fa-fist-raised",
+        "fa": "fas fa-fist-raised icon",
         "members": [
             "Bernice Marshall",
             "Alvin McCormick",
@@ -60,7 +60,7 @@
     },
     {
         "name": "Magic club",
-        "fa": "fas fa-magic",
+        "fa": "fas fa-magic icon",
         "members": [
             "Harry Ruiz",
             "Tom Dunn",
@@ -78,7 +78,7 @@
     },
     {
         "name": "Live long and prosper club",
-        "fa": "fas fa-hand-spock",
+        "fa": "fas fa-hand-spock icon",
         "members": [
             "Shane Lambert",
             "Willie Young",
